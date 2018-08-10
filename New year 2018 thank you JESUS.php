@@ -1,8 +1,7 @@
 <?php
-$year= date("Y");
 $user ="Charles Aloaye Sedenu";
-if($year=="2018")
+if(date("Y")=="2018")
 {
-echo $user. " says &rarr; Welcome dear to ".$year;
+echo $user. " says &rarr; Welcome dear to ".date("Y");
 }
 ?>
